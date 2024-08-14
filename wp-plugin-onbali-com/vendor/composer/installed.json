@@ -1,0 +1,29 @@
+{
+    "packages": [
+        {
+            "name": "seobrothers/wp-plugin",
+            "version": "dev-release",
+            "version_normalized": "dev-release",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:wp6174/wp-plugin.git",
+                "reference": "79412ddd5b2a31bbf052c9b6fc499d44a2b49ff3"
+            },
+            "require": {
+                "php": "8.*"
+            },
+            "time": "2024-04-03T09:46:49+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Seobrothers\\WP\\Plugin\\": "src/"
+                }
+            },
+            "description": "Wordpress plugin basics.",
+            "install-path": "../seobrothers/wp-plugin"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

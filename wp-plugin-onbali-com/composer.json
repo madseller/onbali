@@ -1,0 +1,21 @@
+{
+    "name": "seobrothers/wp-plugin-onbali-com",
+    "description": "Wordpress plugin onbali.com",
+    "type": "library",
+    "version": "dev-release",
+    "require": {
+        "php": "8.*",
+        "seobrothers/wp-plugin": "dev-release"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@gitlab.com:wp6174/wp-plugin.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Seobrothers\\WP\\Plugin\\Onbali\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "23e15910c05146541892afff89289f1a",
+    "packages": [
+        {
+            "name": "seobrothers/wp-plugin",
+            "version": "dev-release",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:wp6174/wp-plugin.git",
+                "reference": "79412ddd5b2a31bbf052c9b6fc499d44a2b49ff3"
+            },
+            "require": {
+                "php": "8.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Seobrothers\\WP\\Plugin\\": "src/"
+                }
+            },
+            "description": "Wordpress plugin basics.",
+            "time": "2024-04-03T09:46:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "seobrothers/wp-plugin": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "8.*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

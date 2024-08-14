@@ -1,0 +1,15 @@
+{
+    "name": "seobrothers/wp-plugin",
+    "description": "Wordpress plugin basics.",
+    "type": "library",
+    "version": "dev-release",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seobrothers\\WP\\Plugin\\": "src/"
+        }
+    }
+}
